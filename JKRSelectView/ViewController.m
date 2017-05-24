@@ -84,6 +84,7 @@
     }
 }
 
+#pragma mark - 刷新结果
 - (void)refreshGameResult {
     NSString *game = [[JKRSelectedStore sharedStore] selectItemsWithType:JKRSelectedTypeGame gameType:0][self.gameIndex];
     NSString *result = [NSString stringWithFormat:@"游戏：%@", game];
@@ -102,6 +103,7 @@
     self.resultGradeLabel.text = result;
 }
 
+#pragma mark - 懒加载
 - (UILabel *)resultGameLabel {
     if (!_resultGameLabel) {
         _resultGameLabel = createResultLabel();
