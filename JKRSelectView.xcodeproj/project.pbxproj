@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058FBF5A1ED5714500BAF1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF591ED5714500BAF1B9 /* main.m */; };
+		058FBF5D1ED5714500BAF1B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF5C1ED5714500BAF1B9 /* AppDelegate.m */; };
+		058FBF601ED5714500BAF1B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF5F1ED5714500BAF1B9 /* ViewController.m */; };
+		058FBF631ED5714500BAF1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FBF611ED5714500BAF1B9 /* Main.storyboard */; };
+		058FBF651ED5714500BAF1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058FBF641ED5714500BAF1B9 /* Assets.xcassets */; };
+		058FBF681ED5714500BAF1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FBF661ED5714500BAF1B9 /* LaunchScreen.storyboard */; };
+		058FBF731ED5714500BAF1B9 /* JKRSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF721ED5714500BAF1B9 /* JKRSelectViewTests.m */; };
+		058FBF7E1ED5714500BAF1B9 /* JKRSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF7D1ED5714500BAF1B9 /* JKRSelectViewUITests.m */; };
+		058FBF911ED5716A00BAF1B9 /* JKRBaseSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF8C1ED5716A00BAF1B9 /* JKRBaseSelectedView.m */; };
+		058FBF921ED5716A00BAF1B9 /* JKRSelectedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF8E1ED5716A00BAF1B9 /* JKRSelectedStore.m */; };
+		058FBF931ED5716A00BAF1B9 /* JKRSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF901ED5716A00BAF1B9 /* JKRSelectMenu.m */; };
+		058FBF9B1ED571D600BAF1B9 /* NSObject+JKR_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF951ED571D600BAF1B9 /* NSObject+JKR_Observer.m */; };
+		058FBF9C1ED571D600BAF1B9 /* UIView+JKR_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF971ED571D600BAF1B9 /* UIView+JKR_Frame.m */; };
+		058FBF9D1ED571D600BAF1B9 /* UIView+JKRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBF9A1ED571D600BAF1B9 /* UIView+JKRViewController.m */; };
+		058FBFA11ED5728200BAF1B9 /* UIColor+JKRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBFA01ED5728200BAF1B9 /* UIColor+JKRColor.m */; };
+		058FBFA41ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBFA31ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.m */; };
+		058FBFA91ED5789E00BAF1B9 /* UIImage+JKRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBFA81ED5789E00BAF1B9 /* UIImage+JKRImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058FBF6F1ED5714500BAF1B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FBF4D1ED5714400BAF1B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FBF541ED5714400BAF1B9;
+			remoteInfo = JKRSelectView;
+		};
+		058FBF7A1ED5714500BAF1B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FBF4D1ED5714400BAF1B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FBF541ED5714400BAF1B9;
+			remoteInfo = JKRSelectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058FBF551ED5714400BAF1B9 /* JKRSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FBF591ED5714500BAF1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		058FBF5B1ED5714500BAF1B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		058FBF5C1ED5714500BAF1B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		058FBF5E1ED5714500BAF1B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		058FBF5F1ED5714500BAF1B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		058FBF621ED5714500BAF1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058FBF641ED5714500BAF1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058FBF671ED5714500BAF1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058FBF691ED5714500BAF1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FBF6E1ED5714500BAF1B9 /* JKRSelectViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRSelectViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FBF721ED5714500BAF1B9 /* JKRSelectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRSelectViewTests.m; sourceTree = "<group>"; };
+		058FBF741ED5714500BAF1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FBF791ED5714500BAF1B9 /* JKRSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FBF7D1ED5714500BAF1B9 /* JKRSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRSelectViewUITests.m; sourceTree = "<group>"; };
+		058FBF7F1ED5714500BAF1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FBF8B1ED5716A00BAF1B9 /* JKRBaseSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRBaseSelectedView.h; sourceTree = "<group>"; };
+		058FBF8C1ED5716A00BAF1B9 /* JKRBaseSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRBaseSelectedView.m; sourceTree = "<group>"; };
+		058FBF8D1ED5716A00BAF1B9 /* JKRSelectedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRSelectedStore.h; sourceTree = "<group>"; };
+		058FBF8E1ED5716A00BAF1B9 /* JKRSelectedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRSelectedStore.m; sourceTree = "<group>"; };
+		058FBF8F1ED5716A00BAF1B9 /* JKRSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRSelectMenu.h; sourceTree = "<group>"; };
+		058FBF901ED5716A00BAF1B9 /* JKRSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRSelectMenu.m; sourceTree = "<group>"; };
+		058FBF941ED571D600BAF1B9 /* NSObject+JKR_Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKR_Observer.h"; sourceTree = "<group>"; };
+		058FBF951ED571D600BAF1B9 /* NSObject+JKR_Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKR_Observer.m"; sourceTree = "<group>"; };
+		058FBF961ED571D600BAF1B9 /* UIView+JKR_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKR_Frame.h"; sourceTree = "<group>"; };
+		058FBF971ED571D600BAF1B9 /* UIView+JKR_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKR_Frame.m"; sourceTree = "<group>"; };
+		058FBF991ED571D600BAF1B9 /* UIView+JKRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKRViewController.h"; sourceTree = "<group>"; };
+		058FBF9A1ED571D600BAF1B9 /* UIView+JKRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKRViewController.m"; sourceTree = "<group>"; };
+		058FBF9E1ED571EB00BAF1B9 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		058FBF9F1ED5728200BAF1B9 /* UIColor+JKRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JKRColor.h"; sourceTree = "<group>"; };
+		058FBFA01ED5728200BAF1B9 /* UIColor+JKRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JKRColor.m"; sourceTree = "<group>"; };
+		058FBFA21ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKRTapGestureRecognizer.h"; sourceTree = "<group>"; };
+		058FBFA31ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKRTapGestureRecognizer.m"; sourceTree = "<group>"; };
+		058FBFA71ED5789E00BAF1B9 /* UIImage+JKRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKRImage.h"; sourceTree = "<group>"; };
+		058FBFA81ED5789E00BAF1B9 /* UIImage+JKRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKRImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058FBF521ED5714400BAF1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF6B1ED5714500BAF1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF761ED5714500BAF1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058FBF4C1ED5714400BAF1B9 = {
+			isa = PBXGroup;
+			children = (
+				058FBF571ED5714400BAF1B9 /* JKRSelectView */,
+				058FBF711ED5714500BAF1B9 /* JKRSelectViewTests */,
+				058FBF7C1ED5714500BAF1B9 /* JKRSelectViewUITests */,
+				058FBF561ED5714400BAF1B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058FBF561ED5714400BAF1B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF551ED5714400BAF1B9 /* JKRSelectView.app */,
+				058FBF6E1ED5714500BAF1B9 /* JKRSelectViewTests.xctest */,
+				058FBF791ED5714500BAF1B9 /* JKRSelectViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058FBF571ED5714400BAF1B9 /* JKRSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF5B1ED5714500BAF1B9 /* AppDelegate.h */,
+				058FBF5C1ED5714500BAF1B9 /* AppDelegate.m */,
+				058FBF9E1ED571EB00BAF1B9 /* Header.h */,
+				058FBF5E1ED5714500BAF1B9 /* ViewController.h */,
+				058FBF5F1ED5714500BAF1B9 /* ViewController.m */,
+				058FBFA61ED574F900BAF1B9 /* Menu */,
+				058FBFA51ED574F000BAF1B9 /* Category */,
+				058FBF611ED5714500BAF1B9 /* Main.storyboard */,
+				058FBF641ED5714500BAF1B9 /* Assets.xcassets */,
+				058FBF661ED5714500BAF1B9 /* LaunchScreen.storyboard */,
+				058FBF691ED5714500BAF1B9 /* Info.plist */,
+				058FBF581ED5714500BAF1B9 /* Supporting Files */,
+			);
+			path = JKRSelectView;
+			sourceTree = "<group>";
+		};
+		058FBF581ED5714500BAF1B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF591ED5714500BAF1B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		058FBF711ED5714500BAF1B9 /* JKRSelectViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF721ED5714500BAF1B9 /* JKRSelectViewTests.m */,
+				058FBF741ED5714500BAF1B9 /* Info.plist */,
+			);
+			path = JKRSelectViewTests;
+			sourceTree = "<group>";
+		};
+		058FBF7C1ED5714500BAF1B9 /* JKRSelectViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF7D1ED5714500BAF1B9 /* JKRSelectViewUITests.m */,
+				058FBF7F1ED5714500BAF1B9 /* Info.plist */,
+			);
+			path = JKRSelectViewUITests;
+			sourceTree = "<group>";
+		};
+		058FBFA51ED574F000BAF1B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				058FBFA71ED5789E00BAF1B9 /* UIImage+JKRImage.h */,
+				058FBFA81ED5789E00BAF1B9 /* UIImage+JKRImage.m */,
+				058FBF941ED571D600BAF1B9 /* NSObject+JKR_Observer.h */,
+				058FBF951ED571D600BAF1B9 /* NSObject+JKR_Observer.m */,
+				058FBF961ED571D600BAF1B9 /* UIView+JKR_Frame.h */,
+				058FBF971ED571D600BAF1B9 /* UIView+JKR_Frame.m */,
+				058FBF991ED571D600BAF1B9 /* UIView+JKRViewController.h */,
+				058FBF9A1ED571D600BAF1B9 /* UIView+JKRViewController.m */,
+				058FBF9F1ED5728200BAF1B9 /* UIColor+JKRColor.h */,
+				058FBFA01ED5728200BAF1B9 /* UIColor+JKRColor.m */,
+				058FBFA21ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.h */,
+				058FBFA31ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		058FBFA61ED574F900BAF1B9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				058FBF8B1ED5716A00BAF1B9 /* JKRBaseSelectedView.h */,
+				058FBF8C1ED5716A00BAF1B9 /* JKRBaseSelectedView.m */,
+				058FBF8D1ED5716A00BAF1B9 /* JKRSelectedStore.h */,
+				058FBF8E1ED5716A00BAF1B9 /* JKRSelectedStore.m */,
+				058FBF8F1ED5716A00BAF1B9 /* JKRSelectMenu.h */,
+				058FBF901ED5716A00BAF1B9 /* JKRSelectMenu.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058FBF541ED5714400BAF1B9 /* JKRSelectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FBF821ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectView" */;
+			buildPhases = (
+				058FBF511ED5714400BAF1B9 /* Sources */,
+				058FBF521ED5714400BAF1B9 /* Frameworks */,
+				058FBF531ED5714400BAF1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRSelectView;
+			productName = JKRSelectView;
+			productReference = 058FBF551ED5714400BAF1B9 /* JKRSelectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058FBF6D1ED5714500BAF1B9 /* JKRSelectViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FBF851ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectViewTests" */;
+			buildPhases = (
+				058FBF6A1ED5714500BAF1B9 /* Sources */,
+				058FBF6B1ED5714500BAF1B9 /* Frameworks */,
+				058FBF6C1ED5714500BAF1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FBF701ED5714500BAF1B9 /* PBXTargetDependency */,
+			);
+			name = JKRSelectViewTests;
+			productName = JKRSelectViewTests;
+			productReference = 058FBF6E1ED5714500BAF1B9 /* JKRSelectViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058FBF781ED5714500BAF1B9 /* JKRSelectViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FBF881ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectViewUITests" */;
+			buildPhases = (
+				058FBF751ED5714500BAF1B9 /* Sources */,
+				058FBF761ED5714500BAF1B9 /* Frameworks */,
+				058FBF771ED5714500BAF1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FBF7B1ED5714500BAF1B9 /* PBXTargetDependency */,
+			);
+			name = JKRSelectViewUITests;
+			productName = JKRSelectViewUITests;
+			productReference = 058FBF791ED5714500BAF1B9 /* JKRSelectViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058FBF4D1ED5714400BAF1B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lucky;
+				TargetAttributes = {
+					058FBF541ED5714400BAF1B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					058FBF6D1ED5714500BAF1B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FBF541ED5714400BAF1B9;
+					};
+					058FBF781ED5714500BAF1B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FBF541ED5714400BAF1B9;
+					};
+				};
+			};
+			buildConfigurationList = 058FBF501ED5714400BAF1B9 /* Build configuration list for PBXProject "JKRSelectView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058FBF4C1ED5714400BAF1B9;
+			productRefGroup = 058FBF561ED5714400BAF1B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058FBF541ED5714400BAF1B9 /* JKRSelectView */,
+				058FBF6D1ED5714500BAF1B9 /* JKRSelectViewTests */,
+				058FBF781ED5714500BAF1B9 /* JKRSelectViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058FBF531ED5714400BAF1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FBF681ED5714500BAF1B9 /* LaunchScreen.storyboard in Resources */,
+				058FBF651ED5714500BAF1B9 /* Assets.xcassets in Resources */,
+				058FBF631ED5714500BAF1B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF6C1ED5714500BAF1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF771ED5714500BAF1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058FBF511ED5714400BAF1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FBF9B1ED571D600BAF1B9 /* NSObject+JKR_Observer.m in Sources */,
+				058FBF921ED5716A00BAF1B9 /* JKRSelectedStore.m in Sources */,
+				058FBF9C1ED571D600BAF1B9 /* UIView+JKR_Frame.m in Sources */,
+				058FBF601ED5714500BAF1B9 /* ViewController.m in Sources */,
+				058FBF9D1ED571D600BAF1B9 /* UIView+JKRViewController.m in Sources */,
+				058FBF931ED5716A00BAF1B9 /* JKRSelectMenu.m in Sources */,
+				058FBF5D1ED5714500BAF1B9 /* AppDelegate.m in Sources */,
+				058FBFA91ED5789E00BAF1B9 /* UIImage+JKRImage.m in Sources */,
+				058FBFA11ED5728200BAF1B9 /* UIColor+JKRColor.m in Sources */,
+				058FBFA41ED572BA00BAF1B9 /* UIView+JKRTapGestureRecognizer.m in Sources */,
+				058FBF911ED5716A00BAF1B9 /* JKRBaseSelectedView.m in Sources */,
+				058FBF5A1ED5714500BAF1B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF6A1ED5714500BAF1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FBF731ED5714500BAF1B9 /* JKRSelectViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FBF751ED5714500BAF1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FBF7E1ED5714500BAF1B9 /* JKRSelectViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058FBF701ED5714500BAF1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FBF541ED5714400BAF1B9 /* JKRSelectView */;
+			targetProxy = 058FBF6F1ED5714500BAF1B9 /* PBXContainerItemProxy */;
+		};
+		058FBF7B1ED5714500BAF1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FBF541ED5714400BAF1B9 /* JKRSelectView */;
+			targetProxy = 058FBF7A1ED5714500BAF1B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058FBF611ED5714500BAF1B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FBF621ED5714500BAF1B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058FBF661ED5714500BAF1B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FBF671ED5714500BAF1B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058FBF801ED5714500BAF1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058FBF811ED5714500BAF1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058FBF831ED5714500BAF1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JKRSelectView/Header.h;
+				INFOPLIST_FILE = JKRSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		058FBF841ED5714500BAF1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JKRSelectView/Header.h;
+				INFOPLIST_FILE = JKRSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		058FBF861ED5714500BAF1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRSelectView.app/JKRSelectView";
+			};
+			name = Debug;
+		};
+		058FBF871ED5714500BAF1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRSelectView.app/JKRSelectView";
+			};
+			name = Release;
+		};
+		058FBF891ED5714500BAF1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRSelectView;
+			};
+			name = Debug;
+		};
+		058FBF8A1ED5714500BAF1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.JKRSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRSelectView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058FBF501ED5714400BAF1B9 /* Build configuration list for PBXProject "JKRSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FBF801ED5714500BAF1B9 /* Debug */,
+				058FBF811ED5714500BAF1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FBF821ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FBF831ED5714500BAF1B9 /* Debug */,
+				058FBF841ED5714500BAF1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		058FBF851ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FBF861ED5714500BAF1B9 /* Debug */,
+				058FBF871ED5714500BAF1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		058FBF881ED5714500BAF1B9 /* Build configuration list for PBXNativeTarget "JKRSelectViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FBF891ED5714500BAF1B9 /* Debug */,
+				058FBF8A1ED5714500BAF1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058FBF4D1ED5714400BAF1B9 /* Project object */;
+}
